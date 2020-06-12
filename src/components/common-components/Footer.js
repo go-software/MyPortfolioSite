@@ -5,12 +5,38 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-4">
-            <span className="copyright">
-              Copyright &copy; gokhanokay.com 2020
-            </span>
+          <div className="footer-category col-md-4 col-sm-12">
+            <h5 className="uppercase">
+              Teknolojiler
+            </h5>
+            <ul className="list-inline quicklinks">
+              <li className="list-inline-item">
+                .NET 
+              </li>
+              <li className="list-inline-item">
+                JavaScript
+              </li>
+              <li className="list-inline-item">
+                NodeJS
+              </li>
+              <li className="list-inline-item">
+                AngularJS
+              </li>
+              <li className="list-inline-item">
+                C#
+              </li>
+              <li className="list-inline-item">
+                MSSQL Server
+              </li>
+              <li className="list-inline-item">
+                Web Service
+              </li>
+            </ul>
           </div>
-          <div className="col-md-4">
+          <div className="footer-category col-md-4 col-sm-12">
+          <h5 className="footer-category-title">              
+              Takipte Kal
+            </h5>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="https://twitter.com/gkhnokay">
@@ -29,16 +55,27 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-4">
+          <div className="footer-category col-md-4 col-sm-12">
+          <h5 className="uppercase">
+              İletişim
+            </h5>
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
-                <a href="#something">Privacy Policy</a>
+                gokay2619@gmail.com
               </li>
               <li className="list-inline-item">
-                <a href="#something">Terms of Use</a>
+                0(507) 840 26 74
+              </li>
+              <li className="list-inline-item">
+                Yaşamkent Mah 3158. Cadde No: 20 Çankaya/ANKARA
               </li>
             </ul>
-          </div>
+          </div>         
+        </div>
+        <div className="row align-items-center">
+        <span className="copyright">
+              Copyright &copy; Go-Software 2020
+            </span>
         </div>
       </div>
     </footer>
