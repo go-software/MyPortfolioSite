@@ -21,6 +21,9 @@ a:hover {
 .text-primary {
   color: #44af98 !important;
 }
+hr{
+  border-color: #207e69;
+}
 h1,
 h2,
 h3,
@@ -497,6 +500,17 @@ header.masthead .intro-text .intro-heading {
     text-align: left;
   }
 }
+@media (max-width: 767px ) {
+  .footer-category h5 {
+    line-height: 30px;
+    margin: 20px auto 0px auto;
+  }
+  .footer .container .row{
+    width: 100%;
+    display: flow-root;
+  }
+}
+
 @media (min-width: 992px) {
 
   #mainNav {
@@ -654,7 +668,7 @@ section#contact :-ms-input-placeholder {
 }
 .footer {
   padding: 25px 0;
-  height: 40vh;
+  height: 42vh;
   text-align: center;
   background-color: #303841;
   color: white;
@@ -670,11 +684,15 @@ section#contact :-ms-input-placeholder {
 .footer .container .row{
   width: 100%;
 }
+.footer-category{
+  margin: 10px auto;
+}
+
 .footer-category h5{
-  height: 50px;
+  height: 25px;
 }
 .footer-category ul{
- height: 200px;
+ height: 180px;
  display: flex;
  flex-direction: row;
  justify-content: space-around;
@@ -682,7 +700,7 @@ section#contact :-ms-input-placeholder {
  margin: auto;
 }
 .footer-category ul li{
-  line-height: 30px;  
+  line-height: 20px;  
 }
 .footer span.copyright {
   font-size: medium;

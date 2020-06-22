@@ -9,6 +9,7 @@ const Footer = () => {
             <h5 className="uppercase">
               Teknolojiler
             </h5>
+            <hr/>
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
                 .NET 
@@ -37,6 +38,7 @@ const Footer = () => {
           <h5 className="footer-category-title">              
               Takipte Kal
             </h5>
+            <hr/>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="https://twitter.com/gkhnokay">
@@ -59,6 +61,7 @@ const Footer = () => {
           <h5 className="uppercase">
               İletişim
             </h5>
+            <hr/>
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
                 gokay2619@gmail.com
